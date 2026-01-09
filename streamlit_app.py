@@ -144,15 +144,15 @@ if st.session_state.processed_data:
                             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                             key=f"excel_dl_{tab_idx}"
                         )
-else:
-    st.warning("No seating blocks generated. Check CSV format and branch codes.")
-    if st.session_state.processed_data:
-        debug = st.session_state.processed_data.get('debug', {})
-        with st.expander("📋 Debug Information"):
-            st.write(f"**Rows before filtering:** {debug.get('rows_before_filter', 'N/A')}")
-            st.write(f"**Rows after filtering:** {debug.get('rows_after_filter', 'N/A')}")
-            st.write(f"**Recognized branch codes:** {', '.join(debug.get('recognized_branch_codes', []))}")
-            st.info("If 'Rows after filtering' is much lower than expected, your PRN values might not contain the branch codes listed above. Please verify the PRN format in your CSV file.")
+    else:
+        st.warning("No seating blocks generated. Check CSV format and branch codes.")
+        if st.session_state.processed_data:
+            debug = st.session_state.processed_data.get('debug', {})
+            with st.expander("📋 Debug Information"):
+                st.write(f"**Rows before filtering:** {debug.get('rows_before_filter', 'N/A')}")
+                st.write(f"**Rows after filtering:** {debug.get('rows_after_filter', 'N/A')}")
+                st.write(f"**Recognized branch codes:** {', '.join(debug.get('recognized_branch_codes', []))}")
+                st.info("If 'Rows after filtering' is much lower than expected, your PRN values might not contain the branch codes listed above. Please verify the PRN format in your CSV file.")
     
     st.divider()
     
