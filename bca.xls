@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+	<?mso-application progid="Excel.Sheet"?> 
+	<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" 
+	xmlns:x="urn:schemas-microsoft-com:office:excel" 
+	xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:html="http://www.w3.org/TR/REC-html40"> 
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"> 
+	<Version>12.00</Version> 
+	</DocumentProperties> 
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"> 
+	<WindowHeight>8130</WindowHeight> 
+	<WindowWidth>15135</WindowWidth> 
+	<WindowTopX>120</WindowTopX> 
+	<WindowTopY>45</WindowTopY> 
+	<ProtectStructure>False</ProtectStructure> 
+	<ProtectWindows>False</ProtectWindows> 
+	</ExcelWorkbook> 
+	<Styles>
+		<Style ss:ID="xls-style-1" ss:Name="xls-style-1">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#E0E9F5" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-2" ss:Name="xls-style-2">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-3" ss:Name="xls-style-3">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="0"/>
+		</Style>
+		<Style ss:ID="xls-style-4" ss:Name="xls-style-4">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-5" ss:Name="xls-style-5">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="Short Date"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Table>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="250"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="180"/>
+			<Column ss:Width="180"/>
+			<Column ss:Width="130"/>
+			<Column ss:Width="110"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Row>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Sr No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Form. No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Verify Status</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Status</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Uni. Verification Status</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Name</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Mobile No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">PRN</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Email</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">DOB</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Gender</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Address</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Pin No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">City</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Category</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Fetch Type</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Taluka</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">District</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">College Type</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Roll Number</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">ABC ID</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">AadharCard No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Exam Name</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Subject</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Passing Year</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Seat No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">School/College</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Create By</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Create Date</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MALI SNEHA RAJKUMAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9371842784</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101013</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MALIRAJU45531@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">26/06/2007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST BALAGAON TALUKA JATH DISTIC SANGALI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">416413</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BALAGAON</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JATH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sangli</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">193-876-778-009</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">622333671836</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">X027599</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">M V HIGHSCHOOL AND JR COLLAGE UMADI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SNEHA RAJKUMAR MALI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">POGUL ABHISHEK ANIL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8262984923</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">abhishekpogul33@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/01/2008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/VAJARESHWAR NAGAR SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">410036</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">167-921-430-134</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">238562264924</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ABHISHEK ANIL POGUL</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">3</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DEVKAR SAYALI SACHIN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9552382636</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101011</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">devkarsayali12@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/06/2008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST KURDUWADI TALUKA MADHA DISTRICT SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413208</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KURDUWADI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Madha</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">480-819-087-325</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">312826109493</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p109014</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">mahatma jyotiba phule jr college kurduwadi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYALI SACHIN DEVKAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">LALKOT SAQLAIN MOULAALI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8623016618</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SMLALKOT86@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/09/2007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26A</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TFWS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">834-185-109-605</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">791698619003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAQLAIN MOULAALI LALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">5</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ALIM KHUBEK ZAKIR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9730442377</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ALIMKHUBEK@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/05/2007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">182</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TFWS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">103-910-868-776</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">845160173198</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KHUBEK ZAKIR ALIM</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">6</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NADAF ARSHAD HAMIDBASHA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9529373205</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">nadafarshad77@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/03/2008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">279</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR CENTRAL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TFWS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">603-874-704-796</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">478216844481</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ARSHAD HAMIDBASHA NADAF</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">LANGDEWALE KRISHNA GOPALSING</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8390213006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101009</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KRISHNALANGDEWALE34@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/12/2006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">125 HUCCHESHWAR NAGAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">658-810-220-607</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">963722562619</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p101649</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">h d college solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KRISHNA GOPALSING LANGDEWALE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DIDDI POOJA  NARSAPPA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8010734305</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101012</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">rajudiddi567@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">15/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">34/3/51 NEW PACCHA PETH SAIBABA CHOWK SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">533-956-090-325</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">613953653631</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">P256469</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">kuchan high school vocational solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">POOJA  NARSAPPA DIDDI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TIRTH ONKAR  SHARANAPPA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9370000674</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">onkartirth@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">13/09/2007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">D-10 BOMBAY PARK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">667-917-778-214</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">483845249139</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">c237227</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">dhb soni collage solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ONKAR  SHARANAPPA TIRTH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KUMBAR AKSHATA RAJKUMAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9699795197</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">amulyakumbhar02@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/05/2007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST BALAGAOL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">416413</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BALAGAON</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JATH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sangli</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">899-106-065-135</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">538285826594</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">x027862</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">m v high scholl junior collage umadi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKSHATA RAJKUMAR KUMBAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NADAF IFATPARVIN HAMIDBASHA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8999896730</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ifatparvinnadaf@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/12/2006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">279</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR CENTRAL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TFWS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">137-507-532-451</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">734436494411</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">IFATPARVIN HAMIDBASHA NADAF</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HIRAMATH  AISHWARYA  MADIWALAYYA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9545887242</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">madivalayyahiremath73@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/09/2006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST BALAGAON TAL JATH DIST SANGALI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">416413</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BALAGAON</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JATH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sangli</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">847-240-263-843</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">781556063270</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">X027615</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">m v highschool  and jr college umadi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AISHWARYA  MADIWALAYYA HIRAMATH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">WALE  OMKAR  ASHOK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9325551307</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321111101010</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">omkarwale1703@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/05/2006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST KORSEGAON TALUKA AKKALKOT KORSEGAON PO KARAJAGI DIST SOALPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413219</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KORSEGAON</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">275-835-376-011</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">264836900739</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MATHEMATICS FOUNDATIONS TO COMPUTER SCIENCE-I, PROBLEM SOLVING TECHNIQUES, PROBLEM SOLVING TECHNIQUES, COMPUTER ARCHITECTURE, COMPUTER ARCHITECTURE, GENERAL ENGLISH- I, INDIAN HEALTH, WELLNESS AND PSYCHOLOGY (INCLUDING AYURVED), ENVIRONMENTAL SCIENCE AND SUSTAINABILITY, ADDITIONAL COURSE INDIAN OR FOREIGN LANGUAGE OTHER THAN MOTHER TONGUE AND ENGLISH (1-1-0)) [OPTIONAL COURSE]</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p103949</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">walchand college of arts and science solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OMKAR  ASHOK WALE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T15:57:15.840</Data></Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>

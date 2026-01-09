@@ -1,0 +1,2157 @@
+<?xml version="1.0"?>
+	<?mso-application progid="Excel.Sheet"?> 
+	<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" 
+	xmlns:x="urn:schemas-microsoft-com:office:excel" 
+	xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:html="http://www.w3.org/TR/REC-html40"> 
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"> 
+	<Version>12.00</Version> 
+	</DocumentProperties> 
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"> 
+	<WindowHeight>8130</WindowHeight> 
+	<WindowWidth>15135</WindowWidth> 
+	<WindowTopX>120</WindowTopX> 
+	<WindowTopY>45</WindowTopY> 
+	<ProtectStructure>False</ProtectStructure> 
+	<ProtectWindows>False</ProtectWindows> 
+	</ExcelWorkbook> 
+	<Styles>
+		<Style ss:ID="xls-style-1" ss:Name="xls-style-1">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#E0E9F5" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-2" ss:Name="xls-style-2">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-3" ss:Name="xls-style-3">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="0"/>
+		</Style>
+		<Style ss:ID="xls-style-4" ss:Name="xls-style-4">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-5" ss:Name="xls-style-5">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#A4BED4"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="Short Date"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Table>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="250"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="180"/>
+			<Column ss:Width="180"/>
+			<Column ss:Width="130"/>
+			<Column ss:Width="110"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Row>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Sr No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Form. No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Verify Status</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Status</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Uni. Verification Status</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Name</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Mobile No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">PRN</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Email</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">DOB</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Gender</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Address</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Pin No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">City</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Category</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Fetch Type</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Taluka</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">District</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">College Type</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Roll Number</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">ABC ID</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">AadharCard No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Exam Name</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Subject</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Passing Year</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Seat No.</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">School/College</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Create By</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Create Date</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MADUR DIVYA LAXMINARAYAN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8262996635</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DIVYAMADUR01@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/07/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PLOT NO.15,16 KOTA NAGAR JUNA VIDI GHARKHUL SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">689-279-038-920</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">897231340962</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022, 2020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">119271, P091493, C230945</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Deshbhakat hariyana bankatlal soni college solapur, D.B.F Dayanand College solapur, B.M.p kanya prashala solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DIVYA LAXMINARAYAN MADUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> KULKARNI SHRUTI RAJESH </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9356343071</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241010</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHRUTIKULKARNI455@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">31/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">603, SARATHI ESTATE,</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">495-212-284-509</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">507225156090</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920053, p093752</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Abhijit Kadam Institute of Management and Social Sciences, Solapur, bharati vidhyapeeth, solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KULKARNI SHRUTI RAJESH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">3</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GHULE SAMARTH PRABHAKAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8080799587</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241013</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">samarthghule89@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/06/2002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">A/P MOHOL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413213</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MOHOL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MOHOL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">558-227-826-065</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">684076015126</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024, 2021, 0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">335309, p094380, c267650</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Deshbhakt sambhajirao garad mahavidyalay, mohol(dsg), rastramata indira kanya prashala, mohol, rashtramata indira kanya prashala, mohol</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAMARTH PRABHAKAR GHULE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BOTE SAI DNYANESHWAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8669393273</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAIBOTE970@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/05/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAI PARADIES, DHUS PIMPALGAON ROAD, BARSHI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413411</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BARSHI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">861-200-932-184</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">821600661905</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">104033</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">B. P. sulakhe commerce college barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAI DNYANESHWAR BOTE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">5</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TEKALE SANJANA RAJENDRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9423235521</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241011</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SANJANATEKALE3@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ATP. RATNAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413501</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ATP. RATNAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KALAMB</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Osmanabad</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">511-507-039-680</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">598986928061</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">103988</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">B. P. Sulakhe Commerce college barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SANJANA RAJENDRA TEKALE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">6</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VAHIL SAKSHI TANAJI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8010609385</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241018</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAKSHIVAHIL068@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/06/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST WANGI BK ,TAL-BHOOM, DIST-DHARASHIV</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413502</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">WANGI BK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bhoom</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Osmanabad</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">130-171-399-958</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">996630864701</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">104017</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">B.p.sulakhe commerce college barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAKSHI TANAJI VAHIL</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">CHOUDHARI SAYALEE DHARMRAJ</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8010300974</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYLEECHOUDHARI@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">18/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PIMPALWADI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413404</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PIMPALWADI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">449-130-037-785</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">362585967869</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">P098557</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Shri shivaji mahavidyalaya barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYALEE DHARMRAJ CHOUDHARI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TIPRATKAR YASH YOGESH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7767813781</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TIPRATKARYASH@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/01/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">535 NORTH SADAR BAZAR LASHKAR KUMBHAR GALLI SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">463-945-816-706</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">302822797823</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">119323</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">dhb soni college solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">YASH YOGESH TIPRATKAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKH MIRASAB SAIPAN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9146586087</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241012</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MIRASABSHAIKH3597@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">69, ATPOST HONMURGI, HONMURGI, SOLAPUR 413215</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413215</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">EWS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOUTH SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">763-294-633-531</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">604225560146</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Science (BSc)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2463091</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sangameshwar college, solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MIRASAB SAIPAN SHAIKH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KUDAGE TANUJA VIJAYKUMAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7775986777</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KUDAGETANUJA@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">24/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT.POST,TALSANGI,TAL.MANGALWEDHA,DIST.SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413319</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TALSANGI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Mangalwedha</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">657-210-466-397</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">375144920052</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2021</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p098313</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">new english school,mangalwedha</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TANUJA VIJAYKUMAR KUDAGE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MENDGUDALE  VIJAYALAXMI  VIRBHADRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9561414078</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">mendgudalevijayalaxmi@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST MANDRUP TAL SOUTH SOLAPUR DIST SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413221</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MANDRUP</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOUTH SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">203-963-274-391</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">784251331645</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">P113003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKSHAR JR COLLEGE KANDALGAON</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VIJAYALAXMI  VIRBHADRA MENDGUDALE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> FAIZA A MAJEED SHAIKH </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8010786369</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241009</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">FAIZASHAIKH978@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">10/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">81/A SAHARA NAGAR-1,HOTGI ROAD SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413224</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">882-051-114-835</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">570134809389</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022, 2020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920082, P095274, C283944</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Abhijit kadam institute of management and social sciences solapur, SSA college of arts &amp; science solapur, BQK Girls high school solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">FAIZA A MAJEED SHAIKH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BIRAJDAR JATEPPA RAMESHWAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9307889481</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241015</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">birajdarshivaraj1807@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/10/2003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GAUDAGAON BK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413227</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GAUDAGAON BK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKAALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">985-145-481-800</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">755686276993</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024, 2021, 2019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">343185, P157151, C268678</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DHB SONI COLLEGE, SOLAPUR, Shri J. P. High School,, Shri J. P. High School,</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JATEPPA RAMESHWAR BIRAJDAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JADHAV VAISHNAVI DATTATRAYA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9209562383</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241016</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VJ7889149@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/05/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST UMRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413525</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">UMRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KALAMB</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Osmanabad</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">164-812-776-715</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">881905062725</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">104010</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">b.p. sulakhe commerce collage ,barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VAISHNAVI DATTATRAYA JADHAV</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> MULE SUJATA MAHAVIR </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8669723596</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">sujatamule2004@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">28/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MALI GALLI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413504</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TAMBEWADI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bhoom</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Osmanabad</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">169-242-264-835</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">512943488068</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">104009, P097020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">B.P.SULAKHE COMMERCE COLLEGE, BARSHI, MAHARATRA Sec. AND HIGHER SEC. VIDYALALYA, BARSHI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MULE SUJATA MAHAVIR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PATIL KRISHNA AVINASH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8767030020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241014</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">krishnapatil9199@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">FLAT NO 102 PRESHAK RESIDENCY VASANT VIHAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">612-368-257-251</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">484520211352</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">179598</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">k.p. mim solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KRISHNA AVINASH PATIL</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> WADGAON PRIYANKA ASHOK </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8847794662</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241017</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">priyankawadagaon75@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/04/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">221 / 222 SHIVGANGA NAGAR PART - 2</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">283-094-073-663</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">885323754552</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">167148</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Vasundhara kala maha vidhyalay</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">WADGAON PRIYANKA ASHOK</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MALAGE CHETAN CHANDRAKANT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8888656234</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">CHETANMALAGE234@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">21/03/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">77 , KAMALA NAGAR, VIJAPUR ROAD, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">218-938-595-162</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">623153609832</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022, 2020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920106, P093159, C221164</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Abhijit Kadam Institute of Management and Social Sciences, Solapur, Walchand College of Arts &amp; Science, Solapur, S.V.C.S.HIGH SCHOOL, solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">CHETAN CHANDRAKANT MALAGE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> PATIL SIDDHARAM MALLINATH </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9307931667</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SIDDHARAMPATIL68@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">25/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">A/P BOREGAON</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413226</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BOREGAON</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NT2</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">980-327-961-385</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">868542885337</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">P091068</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DBF Dayanand college Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PATIL SIDDHARAM MALLINATH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKH NOUMAN MAINODDIN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7887464103</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKHNOUMAN259@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">16/01/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">259, BEGUM PETH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">EWS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">339-011-268-239</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">399893218200</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p095397</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sholapur Social Association urdu high school &amp; junior collge of science, solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NOUMAN MAINODDIN SHAIKH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> SHAIKH KASHAF NAAZ AZIZ AHMED </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9284154949</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241042</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKHKASHAF679@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/02/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MASUM MANZIL 87 DAKSHIN SADAR BAZAR SAAT RASTA SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">482-859-004-955</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">860060217854</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022, 2020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920135, P095372, C283731</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Abhijit kadam institute of management and social sciences solapur, S.S.A urdu high school and jr college of science solapur, B..q.K girl&apos;s high school and jr college solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKH KASHAF NAAZ AZIZ AHMED</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SWAMI VAISHNAVI SANTOSH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9970678333</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241048</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VAISHNAVISWAMI945@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAI SAMARTH NAGAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413216</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">269-707-154-508</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">790450932332</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2443135</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SANGAMESHWAR COLLEGE</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VAISHNAVI SANTOSH SWAMI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MUJAWAR  NAFIYA TABAASSUM  AMIR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9322946945</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241059</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">mujawarnafiya745@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BIJAPUR NAKA SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">CITY</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">116-075-809-498</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">477553276063</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2021</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p083290</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ssak urdue high school juniar clg of arts and sciencesolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NAFIYA TABAASSUM  AMIR MUJAWAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKH AASIF NAJIR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8806828653</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKHAASIFN@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/06/1987</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PLOT NO 5 AYODHYA NAGAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413224</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">358-464-717-623</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">743176779280</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Science (BSc), SSC, HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024, 2002, 2007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">343351, G147868, 932914</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DESHBHAKTA HARINARAYAN BANKATLAL SONI COLLEGE SOLAPUR (DHB), SHRI MALLIKARJUN HIGH SCHOOL SOLAPUR, S P M POLYTECHNIC KUMATHE SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AASIF NAJIR SHAIKH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JADHAV GAYATRI RAVINDRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9307406648</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241023</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JADHAVGAYATRI575@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/06/2008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PLOT NO:43 &apos;A&apos; BHIMA NAGAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">CITY</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">463-157-595-401</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">645312134188</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">119287, p232816</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">d.h.b soni college, sangmeshwar collge solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GAYATRI RAVINDRA JADHAV</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> GHADGE ATHARV ARUN </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7350801066</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241036</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">atharvghadge0@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/10/2002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DONGAON ROAD</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">314-028-767-247</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">803302334435</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">167200</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">vasu</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GHADGE ATHARV ARUN</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GORE PAYAL  TUKARAM</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8605752077</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241041</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">payalgore2004@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT-DHANORE</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413401</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DHANORE</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">628-763-327-289</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">298755789103</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">104060, P096928</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">B.P.sulakhe commerce college barshi, maharasta sec. and higher sec. vidhyalalya barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PAYAL  TUKARAM GORE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MOGAL AYANBAIG AYAZBAIG</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8600741613</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241046</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AYANMOGAL1@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">15/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/A,SAHARA NAGAR,HOTGI ROAD, SOLAPUR.</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">996-661-851-440</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">965101528456</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920049</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ABHIJIT KADAM INSTITUTE OF MANAGEMENT AND SOCIAL SCIENCES, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AYANBAIG AYAZBAIG MOGAL</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYYED SAYYED HABIBA RAZAK RAZAK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8767717825</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241055</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HABIBASAYYED06@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/09/2002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">225 MODI KHANA 225</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">622-187-956-857</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">952338294251</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYYED HABIBA RAZAK RAZAK SAYYED</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JADHAV VEDANT SANTOSH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8767768292</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241065</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">vedantj986@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">28/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">120/10 YASH NAGAR NEAR KHAMITKAR APT MURARJI PETH SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">753-255-180-474</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">779609248381</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523922006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Institute of management and rural development administration , sangli</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VEDANT SANTOSH JADHAV</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> KULKARNI AADITI MUKUND </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9699727220</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">aditikulkarni1204@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VENKTESH NAGAR NALDURG</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413602</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NALDURG</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Tuljapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Osmanabad</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">934-314-695-277</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">562453388131</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KULKARNI AADITI MUKUND</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">32</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NADAF RUBIYA LALSAB</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9325209672</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241045</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">RUBIANADAF033@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">02/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">83, RAGHVENDRA NAGAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">144-746-707-778</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">260596093397</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15626960</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">suyash central school, solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">RUBIYA LALSAB NADAF</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">33</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GUNDELI ARATI  SATYANARAYAN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8208320632</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241028</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">aratigundeli@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">189/1,NILAM NAGAR,M.I.D.C ROAD,SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">171-462-835-354</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">388566503914</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">179615</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">prin.K.p.mangalvedhekar institute of management</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ARATI  SATYANARAYAN GUNDELI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">34</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PHULARI AISHWARYA SHRIMANT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9322585791</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241043</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">aishwaryafulari195@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">21/02/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AMOL NAGAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">701-766-971-998</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">541194602982</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p093987</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">a.d.joshi.junior.college</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AISHWARYA SHRIMANT PHULARI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">35</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GAIKWAD TEJASWINI JAYADEEP</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7020644628</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241053</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">tejaswinigaikwad244@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">28/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST MUGALI,TAL AKKALKOT, MUGALI, SOLAPUR, MAHARASHTRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413220</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MUGALI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">924-652-827-240</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">790625459256</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">167195, P091086</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Vasudhara kala mahavidhyalay (vasu), D.B.F.Dayanand college of arts and science</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TEJASWINI JAYADEEP GAIKWAD</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">36</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> JADHAV RITIKA MANOJ </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9503424826</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241060</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">RITIKAJADHAV4122@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/07/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">57/1,NEW BAPUJI NAGER</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">799-670-620-485</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">972297932102</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">119290, P233288</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Deshbhakt Harinarayan Bankatlal  SONI COLLEGE, Hirachand Nemchand College of Commerce</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JADHAV RITIKA MANOJ</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">37</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> PATEL UMMEHANI TAJODDIN </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8459054131</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241051</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">uhanipatel@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">08/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">48,SIDDHESHWAR NAGAR 5</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">932-948-501-133</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">821359391022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Other Program - UG, HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024, 2021, 2019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">343339, p084608, c211023</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">dhb soni college solapur, ssa junior college of science solapur, ssa urdu high school solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PATEL UMMEHANI TAJODDIN</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">38</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MAHAJAN SAMARTH  SACHIN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9021244980</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241064</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">samarthmahajan370@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/01/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">224-101-716-870</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">456790401611</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">179574</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">K.p.mangalvedheksr institute of management Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAMARTH  SACHIN MAHAJAN</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">39</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> PATIL PRAJWAL AMOGASIDDH </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9579776225</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241030</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">patilprajwal445@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">03/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">A/P SANGOGI B</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413217</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SANGOGI B</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NT2</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">118-839-639-363</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">693719233625</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">P111819</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">CB khedagi college Akkalkot</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PATIL PRAJWAL AMOGASIDDH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">40</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYYED RIYA HARUN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9028473132</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241035</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYYADRIYA8@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ASHIYANA NAGAR,PLOT NO-37,JULE SOLAPUR,SOLAPUR 413005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">141-021-087-781</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">738688212072</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920163</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Abhijit kadam institute of management and social science</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">RIYA HARUN SAYYED</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">41</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JADHAV ADITYA KIRAN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8010372114</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241040</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKJ492003@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/09/2003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PLOT NO 319,AKSHAT PALMS, DONGAON ROAD, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR NORTH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">423-358-321-597</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">366681295097</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Science (BSc)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2433414</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sangmeshwar college (autonomous),solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ADITYA KIRAN JADHAV</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">42</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KOLI DATTATRAY  RAJENDRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9322469408</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241057</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DATTAKOLI182@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/08/2002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">LAXMI NAGAR BYGEHALLI ROAD AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413216</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">442-708-557-739</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">911906232906</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p094427</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">indian model junior college akkalkot</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DATTATRAY  RAJENDRA KOLI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">43</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JAMADAR MDSAMI HASANSAB</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9322352095</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241021</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">samijamadar12@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">21/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">35 SANT GULAB BABA NAGAR MAJREWADI SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">457-382-519-946</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">863858793193</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920050</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ABHIJIT KADAM INSTITUTE OF MANAGEMENT AND SOCIAL SCIENCES, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MDSAMI HASANSAB JAMADAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">44</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PUTTA BHAVIKA DATTATRAY</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8766748075</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241038</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BHAVIKAPUTTA15@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">15/02/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">H-2314, VIDI GHARKUL, HYDRABAD ROAD SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">526-043-053-007</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">969328093380</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">101748</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">A. R. Burla Mahila Varishtha Mahavidyalaya, Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BHAVIKA DATTATRAY PUTTA</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">45</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ATTAR ARSHIYA SADIK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8010460171</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241049</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">arshiyasadikattar0702@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST WANGI, ST. SOLAPUR, DT. SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413221</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">WANGI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOUTH SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">623-814-989-202</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">830762661316</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">119274</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DHB SONI COLLEGE, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ARSHIYA SADIK ATTAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">46</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BAGWAN SHIFA IMTIYAZ</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7498564469</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241052</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHIFABAGWAN67@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">20/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">599, SHUKURWAR PETH SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">704-323-290-519</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">364709845369</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p095033</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">B.Q.K girls haigh school &amp; jr. college solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHIFA IMTIYAZ BAGWAN</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">47</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> DESAI GAURABAI SIDDHARAM </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8010624080</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241054</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DESAIGAURI812@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">12/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT KEGAON (BK)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413215</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KEGAON(BK)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">124-529-741-240</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">224452956017</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p092674</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">sangameshwar college solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DESAI GAURABAI SIDDHARAM</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">48</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TAGALA SAMEER MOHAMMEDYUNUS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8830409175</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241063</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">sameertagala2020@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">28/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">69/2 RAVIWAR PETH SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">230-035-964-193</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">764295345915</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p093361</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Walchand College of Arts and Science, Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAMEER MOHAMMEDYUNUS TAGALA</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">49</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DHAMGUNDE SAMARTH BASLINGAPPA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9860120816</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241027</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAMARTHDHAMGUNDE1402@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">14/02/2003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MANORAMA BANK KORNIA NAGAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">567-615-316-392</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">207194633933</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2443150</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">sangmeshwar college(Autonomous),solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAMARTH BASLINGAPPA DHAMGUNDE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">50</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">EKBOTE PRANALI  SACHIN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9921883483</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241032</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PRANALIEKBOTE22@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/03/2006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">A 222</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">273-455-044-806</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">686361785221</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">179603</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">k.p mangalvedhekar institute of managment</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PRANALI  SACHIN EKBOTE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">51</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> PATEL SUMAYYA MOHAMMED RAFIQUE </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9022950738</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241037</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">THEPATELS0706@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">738 EAST MANGALWAR PETH SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">375-331-902-987</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">826185657235</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2021, 2019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920067, P084437, C272864</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Abhijit kadam institute of management and social sciences, solapur, B.Q.K girl&apos;s high school and jr college solapur, B.Q.K girl&apos;s high school solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PATEL SUMAYYA MOHAMMED RAFIQUE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">52</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NITORE MD FARHAN AYAZAHEMAD</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7767978905</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241044</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">FARHANNITOREF@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">20/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">P-170, SIDDHESHWAR NAGAR 5  MAJREWADI SOLAPUR,SOLAPUR NORTH,ZILLA NAYALAYA SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">EWS</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">245-951-591-270</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">498382911099</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920103</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Abhijit Kadam Institute of Management and Social Sciences, Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MD FARHAN AYAZAHEMAD NITORE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">53</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKH MUSHRAFA YUSUF</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9764835833</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241061</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKHMUSHRAFA9764@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">06/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7/9 D. B. BHAGWATH CHAWL, MURARJI PETH, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">476-206-880-886</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">590927960400</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma, HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">0, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">, P092744</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sangmeshwar college, soalpur, Sangmeshwar college , solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MUSHRAFA YUSUF SHAIKH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">54</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PUTTHA MEGHA NAGNATH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8408826381</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MEGHAPUTTHA@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">05/11/1998</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">38, VAJRESHWARI NAGAR, AKKALKOR ROAD, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">439-705-267-966</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">246670507212</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">706433</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Hirachand Nemchand College of Commerce, Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">MEGHA NAGNATH PUTTHA</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">55</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKH SAYERA BANO SADIQUE</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9309235158</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241034</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHAIKHSAYERA60@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">15/06/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KESHAV NAGAR SOUTH SADAR BAZAR SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">996-165-627-682</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">520781247585</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920168, p095463</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">bharati vidyapeeth pune university, Rajebhai Urdu High School &amp; Junior College of Arts &amp; Science, Solapur.</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYERA BANO SADIQUE SHAIKH</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">56</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GHODAKE  ATMAJA  JITENDRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8208769080</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241039</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ghodakeatmaja8@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">23/03/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BHOSALE CHOWK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413401</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BARSHI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">239-338-287-219</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">986447252490</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022, 2020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">104048, P097366, C239144</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">B.P.SULAKHE commerce college Barshi, Shriman Bhausaheb Zadbuke Mahavidyala,Barshi, Silver Jubilee High School Barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ATMAJA  JITENDRA GHODAKE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">57</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KOTALI   SAGAR  CHANDRAKANT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">8766967615</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241050</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">sagarckotali@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">04/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NEAR SIDDHESHWAR TEMPLE, DUDHANI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413220</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DUDHANI</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AKKALKOT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">648-287-062-095</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">801651563753</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024, 2021, 2019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">345159, P100217, C270781</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">D.H.B. Soni College, Solapur, Shri Gurushantlingeshwar junior college, Dudhani, S.G.p. High school, Dudhani</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAGAR  CHANDRAKANT KOTALI</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">58</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAYYED NOAMAN NASEERAHMED</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7385734177</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241062</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">noamansayyed33@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">15/10/2002</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Male</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">GHAR NO 321/26, MUSLIM PACHHA PETH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">136-097-103-206</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">595755231990</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">P095135</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sholapur Social Association Urdu High school &amp; junior College of Science, Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NOAMAN NASEERAHMED SAYYED</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">59</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">RELEKAR  SHRAVANI PRASHANT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9922929883</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241031</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHRAVANIRELEKAR@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">07/05/2003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PLOT NO 75, RADHA KRISHNA COLONY,</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NorthSolapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">879-322-759-814</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">950232981290</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2443019</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Sangmeshwar college Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHRAVANI PRASHANT RELEKAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">60</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"> KESARE BHAGYASHRI TUKARAM </Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9579521370</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241056</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BHAGYASHRIKESARE14@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">14/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">AT POST VAIRAG</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413402</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VAIRAG</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">971-108-184-127</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">736617694084</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">104008</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">b p sulakhe commerce college barshi</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KESARE BHAGYASHRI TUKARAM</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">61</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BODA LAVANYA PRAKASH</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9021410200</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241026</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">LAVANYABODA1219@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">17/08/2005</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PLOT NO. 39,SONI NAGAR AKASHWANI KENDR MIDC SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SBC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">644-023-351-663</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">396762623660</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">101736</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">A.R burla mahila varishtha mahavidyala</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">LAVANYA PRAKASH BODA</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">62</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NANDURKAR SHRUTI VIKRAM</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9145191001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241029</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NANDURKARSHRUTI6@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">27/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">56,RAILWAYLINE WONDERLAND APARTMENT FLAT NO 29</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413001</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VJNT</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">159-567-746-158</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">657778102440</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA), HSC / Diploma, SSC</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025, 2022, 2020</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">202201049033223, 15626934, 7154982</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">deshbhakta  Harinarayan bankatlal soni college solapur, Suyash central school sholapur maharashtra, Saint thomas english medium school</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHRUTI VIKRAM NANDURKAR</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">63</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JINDAM SAKSHI DEEPAK</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9309033661</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241033</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">sakshijindam17@gmail.com</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">11/10/2003</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HYDERABAD ROAD</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413006</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">110-264-580-317</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">557294349342</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2024</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">338768</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">D.A.V.Velankar College of Commerce, Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SAKSHI DEEPAK JINDAM</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">64</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KAMLIWALE ANBAREEN SOHAIL</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">9322363066</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241047</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KAMLIWALEANBAREEN549@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">22/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">140, KAJAL NAGAR HOTGI ROAD, SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413224</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SolapurNorth</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">370-234-824-337</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">291235154407</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bachelor of Computer Applications (BCA)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2025</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2523920009</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">bharati vidyapeeth (Deemed to be university) pune</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ANBAREEN SOHAIL KAMLIWALE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">65</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Verified</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BHOSALE SHIVANI LAXMAN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">7020271402</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2506321222241058</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BHOSALESHIVANI2004@GMAIL.COM</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">01/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Female</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HOTGI SATION SOUTH   SOLAPUR</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">413215</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HOTGI STAION</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPEN</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Not Fetch</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Solapur</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Self-Finance</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">776-835-848-668</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">783236148736</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">HSC / Diploma</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">OPERATING SYSTEM, DATA STRUCTURE AND ALGORITHMS, DATA BASE MANAGEMENT SYSTEM, PROBABILITY AND STATISTICS, JAVA PROGRAMMING, PRACTICAL I (JAVA PROGRAMMING AND WEB TECHNOLOGY), PRACTICAL II (PYTHON LAB AND DBMSL)</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">2022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">p237377</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">s v c s</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHIVANI LAXMAN BHOSALE</Data></Cell>
+				<Cell ss:StyleID="xls-style-5"><Data ss:Type="DateTime">2025-10-09T11:50:00.620</Data></Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>
